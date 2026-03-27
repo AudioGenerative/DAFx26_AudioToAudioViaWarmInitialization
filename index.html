@@ -171,6 +171,10 @@
       background: rgba(215, 205, 244, 1);
     }
 
+    table.demo thead tr th:first-child {
+      width: 250px;
+    }
+
     table.demo td.query {
       max-width: 14rem;
     }
@@ -673,15 +677,15 @@
       <thead>
       <tr>
       <th scope="col">Example</th>
-      <th scope="col">Input </th>
+      <th scope="col" style="width: 150px;">Input </th>
       <th scope="col">Output (Ours)</th>
-      <th scope="col">Ground truth</th>
       <th scope="col">Prior work</th>
+      <th scope="col">Ground truth</th>
       </tr>
       </thead>
       <tbody>
       <tr>
-      <td class="query">Guitar Recording w/ background conversation</td>
+      <td class="query">Guitar w/ background conversation</td>
       <td>
       <div style="margin-top:0.35rem;">
       <div class="audio-cell">
@@ -695,74 +699,12 @@
       <div style="margin-top:0.35rem;">
       <div class="audio-cell">
       <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.80.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
       <source src="assets/audio/Enhancing/GuitarRecordingEnhancement/guitar_output_t0.85.wav" type="audio/wav">
       </audio>
       </div>
       </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.50.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.55.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.60.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.65.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.70.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.75.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.90.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.95.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
       </td>
+      <td><span style="color: var(--muted);">—</span></td>
       <td>
       <div style="margin-top:0.35rem;">
       <div class="audio-cell">
@@ -772,7 +714,6 @@
       </div>
       </div>
       </td>
-      <td><span style="color: var(--muted);">—</span></td>
       </tr>
       <tr>
       <td class="query">Trumpet</td>
@@ -794,6 +735,8 @@
       </audio>
       </div>
       </div>
+      </td>
+      <td>
       <div style="margin-top:0.35rem;">
       <div class="audio-cell">
       <audio controls preload="metadata">
@@ -825,7 +768,6 @@
       </div>
       </div>
       </td>
-      <td><span style="color: var(--muted);">—</span></td>
       </tr>
       <tr>
       <td class="query">birds chirping</td>
@@ -837,20 +779,7 @@
       </audio>
       </div>
       </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/birds%20chirping/706817_1648170-hq_16k.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/birds%20chirping/birds_chirping(SeparateAnythingYouDescribe).wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
+      
       </td>
       <td>
       <div style="margin-top:0.35rem;">
@@ -861,8 +790,16 @@
       </div>
       </div>
       </td>
-      <td><span style="color: var(--muted);">—</span></td>
-      <td><span style="color: var(--muted);">—</span></td>
+      <td><span style="color: var(--muted);">—</span>
+      <div class="audio-cell">
+      <audio controls preload="metadata">
+      <source src="assets/audio/Enhancing/birds%20chirping/birds_chirping(SeparateAnythingYouDescribe).wav" type="audio/wav">
+      </audio>
+      </div>
+      </td>
+      <td>
+      <span style="color: var(--muted);">—</span>
+      </td>
       </tr>
       <tr>
       <td class="query">declipping/10db</td>
@@ -874,6 +811,17 @@
       </audio>
       </div>
       </div>
+      </td>
+      <td>
+      <div style="margin-top:0.35rem;">
+      <div class="audio-cell">
+      <audio controls preload="metadata">
+      <source src="assets/audio/Enhancing/declipping/10db/10db_output_t0.85.wav" type="audio/wav">
+      </audio>
+      </div>
+      </div>
+      </td>
+      <td>
       <div style="margin-top:0.35rem;">
       <div class="audio-cell">
       <audio controls preload="metadata">
@@ -896,16 +844,6 @@
       </div>
       </div>
       </td>
-      <td>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/declipping/10db/10db_output_t0.85.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      </td>
-      <td><span style="color: var(--muted);">—</span></td>
       <td><span style="color: var(--muted);">—</span></td>
       </tr>
       <tr>
@@ -918,6 +856,17 @@
       </audio>
       </div>
       </div>
+      </td>
+      <td>
+      <div style="margin-top:0.35rem;">
+      <div class="audio-cell">
+      <audio controls preload="metadata">
+      <source src="assets/audio/Enhancing/declipping/1db/output_t0.80.wav" type="audio/wav">
+      </audio>
+      </div>
+      </div>
+      </td>
+      <td>
       <div style="margin-top:0.35rem;">
       <div class="audio-cell">
       <audio controls preload="metadata">
@@ -940,16 +889,6 @@
       </div>
       </div>
       </td>
-      <td>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/declipping/1db/output_t0.80.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      </td>
-      <td><span style="color: var(--muted);">—</span></td>
       <td><span style="color: var(--muted);">—</span></td>
       </tr>
       <tr>
@@ -962,13 +901,6 @@
       </audio>
       </div>
       </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/keyboard%20typing/683332_8872754-hq_16k.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
       </td>
       <td>
       <div style="margin-top:0.35rem;">
@@ -978,13 +910,16 @@
       </audio>
       </div>
       </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/keyboard%20typing/exp302_keyboard%20typing_output(SeparateAnythingYouNeed).wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
+
+      </td>
+      <td>
+        <div style="margin-top:0.35rem;">
+          <div class="audio-cell">
+          <audio controls preload="metadata">
+          <source src="assets/audio/Enhancing/keyboard%20typing/exp302_keyboard%20typing_output(SeparateAnythingYouNeed).wav" type="audio/wav">
+          </audio>
+          </div>
+          </div>
       </td>
       <td>
       <div style="margin-top:0.35rem;">
@@ -995,7 +930,6 @@
       </div>
       </div>
       </td>
-      <td><span style="color: var(--muted);">—</span></td>
       </tr>
       <tr>
       <td class="query">water drops</td>
@@ -1004,13 +938,6 @@
       <div class="audio-cell">
       <audio controls preload="metadata">
       <source src="assets/audio/Enhancing/water%20drops/exp31_water%20drops_mixture.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Enhancing/water%20drops/input_audio_snippet_exp31_water%20drops_mixture.wav" type="audio/wav">
       </audio>
       </div>
       </div>
@@ -1023,6 +950,9 @@
       </audio>
       </div>
       </div>
+
+      </td>
+      <td>
       <div style="margin-top:0.35rem;">
       <div class="audio-cell">
       <audio controls preload="metadata">
@@ -1040,7 +970,6 @@
       </div>
       </div>
       </td>
-      <td><span style="color: var(--muted);">—</span></td>
       </tr>
       </tbody>
       </table>
@@ -1051,9 +980,10 @@
       <thead>
       <tr>
       <th scope="col">Example</th>
-      <th scope="col">Input (+ other)</th>
-      <th scope="col">Output (+ more)</th>
+      <th scope="col">Input </th>
+      <th scope="col">Output (Ours)</th>
       <th scope="col">Prior work</th>
+      <th scope="col">Ground truth</th>
       </tr>
       </thead>
       <tbody>
@@ -1078,6 +1008,7 @@
       </div>
       </td>
       <td><span style="color: var(--muted);">—</span></td>
+      <td><span style="color: var(--muted);">—</span></td>
       </tr>
       <tr>
       <td class="query">Sketch2Sound</td>
@@ -1086,13 +1017,6 @@
       <div class="audio-cell">
       <audio controls preload="metadata">
       <source src="assets/audio/Limitations/Sketch2Sound/input_audio_snippet_car%20racing.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Limitations/Sketch2Sound/sketch2sound_out.wav" type="audio/wav">
       </audio>
       </div>
       </div>
@@ -1105,10 +1029,12 @@
       </audio>
       </div>
       </div>
+      </td>
+      <td>
       <div style="margin-top:0.35rem;">
       <div class="audio-cell">
       <audio controls preload="metadata">
-      <source src="assets/audio/Limitations/Sketch2Sound/output_t0.75_lambda_1.wav" type="audio/wav">
+      <source src="assets/audio/Limitations/Sketch2Sound/sketch2sound_out.wav" type="audio/wav">
       </audio>
       </div>
       </div>
@@ -1134,17 +1060,20 @@
       </audio>
       </div>
       </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Limitations/StemSeparation/Flute%20and%20Guitar/acoustic%20guitar_output(Separate%20anythingyou%20describe).wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
+
       <div style="margin-top:0.35rem;">
       <div class="audio-cell">
       <audio controls preload="metadata">
       <source src="assets/audio/Limitations/StemSeparation/Flute%20and%20Guitar/acoustic_guitar_output_t0.80.wav" type="audio/wav">
+      </audio>
+      </div>
+      </div>
+      </td>
+      <td>
+      <div style="margin-top:0.35rem;">
+      <div class="audio-cell">
+      <audio controls preload="metadata">
+      <source src="assets/audio/Limitations/StemSeparation/Flute%20and%20Guitar/acoustic%20guitar_output(Separate%20anythingyou%20describe).wav" type="audio/wav">
       </audio>
       </div>
       </div>
@@ -1158,27 +1087,6 @@
       <div class="audio-cell">
       <audio controls preload="metadata">
       <source src="assets/audio/Limitations/StemSeparation/Guitar%20and%20Drums/input_audio_snippet_GuitarAndDrums.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Limitations/StemSeparation/Guitar%20and%20Drums/GuitarAndDrums.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Limitations/StemSeparation/Guitar%20and%20Drums/drums.wav" type="audio/wav">
-      </audio>
-      </div>
-      </div>
-      <div style="margin-top:0.35rem;">
-      <div class="audio-cell">
-      <audio controls preload="metadata">
-      <source src="assets/audio/Limitations/StemSeparation/Guitar%20and%20Drums/other.wav" type="audio/wav">
       </audio>
       </div>
       </div>
@@ -1200,6 +1108,22 @@
       </div>
       </td>
       <td><span style="color: var(--muted);">—</span></td>
+      <td>
+      <div style="margin-top:0.35rem;">
+      <div class="audio-cell">
+      <audio controls preload="metadata">
+      <source src="assets/audio/Limitations/StemSeparation/Guitar%20and%20Drums/drums.wav" type="audio/wav">
+      </audio>
+      </div>
+      </div>
+      <div style="margin-top:0.35rem;">
+      <div class="audio-cell">
+      <audio controls preload="metadata">
+      <source src="assets/audio/Limitations/StemSeparation/Guitar%20and%20Drums/other.wav" type="audio/wav">
+      </audio>
+      </div>
+      </div>
+      </td>
       </tr>
       </tbody>
       </table>
