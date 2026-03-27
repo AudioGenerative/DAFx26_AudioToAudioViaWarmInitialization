@@ -1,0 +1,4 @@
+mode: "from_audio "  # from_audio | interpolation
+prompt: "Guitar, Country Style, Banjo like" #Grand Piano Melodies and Chords, Classical Music, Virtuoso" 
+negative_prompt: "Low quality"
+guidance_scale: 30

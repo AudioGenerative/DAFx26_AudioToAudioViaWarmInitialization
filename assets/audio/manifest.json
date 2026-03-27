@@ -1,0 +1,355 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "title": "TimbreTransfer",
+      "folder": "assets/audio/TimbreTransfer",
+      "rows": [
+        {
+          "label": "ComputerMouse2Piano",
+          "folder": "assets/audio/TimbreTransfer/ComputerMouse2Piano",
+          "input": "assets/audio/TimbreTransfer/ComputerMouse2Piano/input_audio_snippet_7audio__office-mouse.wav",
+          "output": "assets/audio/TimbreTransfer/ComputerMouse2Piano/output_t0.75.wav",
+          "target": null,
+          "extras": {}
+        },
+        {
+          "label": "Effect of the noise",
+          "folder": "assets/audio/TimbreTransfer/Effect of the noise",
+          "input": null,
+          "output": null,
+          "target": null,
+          "extras": {
+            "other_audio": [
+              "assets/audio/TimbreTransfer/Effect of the noise/noise1_t0.80.wav",
+              "assets/audio/TimbreTransfer/Effect of the noise/noise_025_t0.80.wav",
+              "assets/audio/TimbreTransfer/Effect of the noise/noise_05_t0.80.wav",
+              "assets/audio/TimbreTransfer/Effect of the noise/noise_075_t0.80.wav",
+              "assets/audio/TimbreTransfer/Effect of the noise/noise_0_t0.80.wav"
+            ]
+          }
+        },
+        {
+          "label": "Nature2piano",
+          "folder": "assets/audio/TimbreTransfer/Nature2piano",
+          "input": "assets/audio/TimbreTransfer/Nature2piano/input_audio_snippet_selkirkshire-nature-ambience.wav",
+          "output": "assets/audio/TimbreTransfer/Nature2piano/output_t0.75.wav",
+          "target": null,
+          "extras": {}
+        },
+        {
+          "label": "Oboe2Piano",
+          "folder": "assets/audio/TimbreTransfer/Oboe2Piano",
+          "input": "assets/audio/TimbreTransfer/Oboe2Piano/input_audio_snippet_Fantasy in C.wav",
+          "output": "assets/audio/TimbreTransfer/Oboe2Piano/output_t0.80.wav",
+          "target": null,
+          "extras": {
+            "more_outputs": [
+              "assets/audio/TimbreTransfer/Oboe2Piano/output_t0.50.wav",
+              "assets/audio/TimbreTransfer/Oboe2Piano/output_t0.55.wav",
+              "assets/audio/TimbreTransfer/Oboe2Piano/output_t0.60.wav",
+              "assets/audio/TimbreTransfer/Oboe2Piano/output_t0.65.wav",
+              "assets/audio/TimbreTransfer/Oboe2Piano/output_t0.70.wav",
+              "assets/audio/TimbreTransfer/Oboe2Piano/output_t0.75.wav",
+              "assets/audio/TimbreTransfer/Oboe2Piano/output_t0.85.wav",
+              "assets/audio/TimbreTransfer/Oboe2Piano/output_t0.90.wav",
+              "assets/audio/TimbreTransfer/Oboe2Piano/output_t0.95.wav"
+            ]
+          }
+        },
+        {
+          "label": "String2Clarinet",
+          "folder": "assets/audio/TimbreTransfer/String2Clarinet",
+          "input": "assets/audio/TimbreTransfer/String2Clarinet/input_audio_snippet_Pirates_String.wav",
+          "output": "assets/audio/TimbreTransfer/String2Clarinet/output_t0.80.wav",
+          "target": null,
+          "extras": {
+            "more_outputs": [
+              "assets/audio/TimbreTransfer/String2Clarinet/DiffWave.wav"
+            ],
+            "other_audio": [
+              "assets/audio/TimbreTransfer/String2Clarinet/WT16_BDDM20.wav"
+            ]
+          }
+        },
+        {
+          "label": "Synth2Violin",
+          "folder": "assets/audio/TimbreTransfer/Synth2Violin",
+          "input": null,
+          "output": "assets/audio/TimbreTransfer/Synth2Violin/output_t0.80.wav",
+          "target": null,
+          "extras": {
+            "other_audio": [
+              "assets/audio/TimbreTransfer/Synth2Violin/ctx_synth lead_00_norm.wav",
+              "assets/audio/TimbreTransfer/Synth2Violin/mutualInformation_k_0.6_clamp_0.3_norm.mp3"
+            ]
+          }
+        },
+        {
+          "label": "Violin2Flute",
+          "folder": "assets/audio/TimbreTransfer/Violin2Flute",
+          "input": null,
+          "output": "assets/audio/TimbreTransfer/Violin2Flute/output_t0.80.wav",
+          "target": null,
+          "extras": {
+            "other_audio": [
+              "assets/audio/TimbreTransfer/Violin2Flute/Latent_diffbridge_generated_flute_from_violin_time_4_channel_0.wav",
+              "assets/audio/TimbreTransfer/Violin2Flute/real_violin_time_4_channel_0.wav"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Midi2Real",
+      "folder": "assets/audio/Midi2Real",
+      "rows": [
+        {
+          "label": "20260224_134620",
+          "folder": "assets/audio/Midi2Real/20260224_134620",
+          "input": "assets/audio/Midi2Real/20260224_134620/input_audio_snippet_24_piano.wav",
+          "output": "assets/audio/Midi2Real/20260224_134620/output_t0.80.wav",
+          "target": null,
+          "extras": {
+            "more_outputs": [
+              "assets/audio/Midi2Real/20260224_134620/output_t0.70.wav",
+              "assets/audio/Midi2Real/20260224_134620/output_t0.75.wav",
+              "assets/audio/Midi2Real/20260224_134620/output_t0.85.wav"
+            ]
+          }
+        },
+        {
+          "label": "20260224_140656",
+          "folder": "assets/audio/Midi2Real/20260224_140656",
+          "input": "assets/audio/Midi2Real/20260224_140656/input_audio_snippet_MIDI2REAL.wav",
+          "output": "assets/audio/Midi2Real/20260224_140656/output_t0.80.wav",
+          "target": null,
+          "extras": {
+            "more_outputs": [
+              "assets/audio/Midi2Real/20260224_140656/output_t0.70.wav",
+              "assets/audio/Midi2Real/20260224_140656/output_t0.75.wav",
+              "assets/audio/Midi2Real/20260224_140656/output_t0.85.wav"
+            ]
+          }
+        },
+        {
+          "label": "20260224_145849",
+          "folder": "assets/audio/Midi2Real/20260224_145849",
+          "input": "assets/audio/Midi2Real/20260224_145849/input_audio_snippet_MIDI2REAL_Chamber3.wav",
+          "output": "assets/audio/Midi2Real/20260224_145849/output_t0.80.wav",
+          "target": null,
+          "extras": {
+            "more_outputs": [
+              "assets/audio/Midi2Real/20260224_145849/output_t0.70.wav",
+              "assets/audio/Midi2Real/20260224_145849/output_t0.75.wav",
+              "assets/audio/Midi2Real/20260224_145849/output_t0.85.wav"
+            ]
+          }
+        },
+        {
+          "label": "FrenchHorn",
+          "folder": "assets/audio/Midi2Real/FrenchHorn",
+          "input": "assets/audio/Midi2Real/FrenchHorn/input_audio_snippet_midi-french horn.wav",
+          "output": "assets/audio/Midi2Real/FrenchHorn/output_t0.85.wav",
+          "target": null,
+          "extras": {
+            "other_audio": [
+              "assets/audio/Midi2Real/FrenchHorn/CoSaRef (SDEdit).wav",
+              "assets/audio/Midi2Real/FrenchHorn/CoSaRef(Zeta).wav",
+              "assets/audio/Midi2Real/FrenchHorn/midi-ddsp-french horn.wav",
+              "assets/audio/Midi2Real/FrenchHorn/midi-french horn.wav"
+            ]
+          }
+        },
+        {
+          "label": "Violin",
+          "folder": "assets/audio/Midi2Real/Violin",
+          "input": "assets/audio/Midi2Real/Violin/input_audio_snippet_2_MidiSynthFreelyAvailable.wav",
+          "output": "assets/audio/Midi2Real/Violin/output_t0.70.wav",
+          "target": "assets/audio/Midi2Real/Violin/2_HumanRecording.wav",
+          "extras": {
+            "other_audio": [
+              "assets/audio/Midi2Real/Violin/2_DDSP(Heuristic).wav",
+              "assets/audio/Midi2Real/Violin/2_DDSP(midi2params_aligned).wav",
+              "assets/audio/Midi2Real/Violin/2_DDSP(midi2params_trasncribed).wav",
+              "assets/audio/Midi2Real/Violin/2_MidiSynthFreelyAvailable.wav"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Enhancing",
+      "folder": "assets/audio/Enhancing",
+      "rows": [
+        {
+          "label": "GuitarRecordingEnhancement",
+          "folder": "assets/audio/Enhancing/GuitarRecordingEnhancement",
+          "input": "assets/audio/Enhancing/GuitarRecordingEnhancement/input_audio_snippet_CountryGuitarPlusConversation.wav",
+          "output": "assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.80.wav",
+          "target": "assets/audio/Enhancing/GuitarRecordingEnhancement/guitar_no_noise.wav",
+          "extras": {
+            "more_outputs": [
+              "assets/audio/Enhancing/GuitarRecordingEnhancement/guitar_output_t0.85.wav",
+              "assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.50.wav",
+              "assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.55.wav",
+              "assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.60.wav",
+              "assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.65.wav",
+              "assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.70.wav",
+              "assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.75.wav",
+              "assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.90.wav",
+              "assets/audio/Enhancing/GuitarRecordingEnhancement/output_t0.95.wav"
+            ]
+          }
+        },
+        {
+          "label": "Trumpet",
+          "folder": "assets/audio/Enhancing/Trumpet",
+          "input": null,
+          "output": "assets/audio/Enhancing/Trumpet/trumpet_output_t0.80.wav",
+          "target": "assets/audio/Enhancing/Trumpet/val_sample_1901_clean.wav",
+          "extras": {
+            "more_outputs": [
+              "assets/audio/Enhancing/Trumpet/val_sample_1901_demucs.wav",
+              "assets/audio/Enhancing/Trumpet/val_sample_1901_mel2mel_diffwave.wav",
+              "assets/audio/Enhancing/Trumpet/val_sample_1901_mel2mel_gl.wav"
+            ],
+            "other_audio": [
+              "assets/audio/Enhancing/Trumpet/val_sample_1901_aug.wav"
+            ]
+          }
+        },
+        {
+          "label": "birds chirping",
+          "folder": "assets/audio/Enhancing/birds chirping",
+          "input": "assets/audio/Enhancing/birds chirping/input_audio_snippet_706817_1648170-hq_16k.wav",
+          "output": "assets/audio/Enhancing/birds chirping/birds_output_t0.80.wav",
+          "target": null,
+          "extras": {
+            "other_audio": [
+              "assets/audio/Enhancing/birds chirping/706817_1648170-hq_16k.wav",
+              "assets/audio/Enhancing/birds chirping/birds_chirping(SeparateAnythingYouDescribe).wav"
+            ]
+          }
+        },
+        {
+          "label": "declipping/10db",
+          "folder": "assets/audio/Enhancing/declipping/10db",
+          "input": "assets/audio/Enhancing/declipping/10db/input_audio_snippet_MIDI-Unprocessed_10_R1_2006_01-04_ORIG_MID--AUDIO_10_R1_2006_03_Track03_wav.wav",
+          "output": "assets/audio/Enhancing/declipping/10db/10db_output_t0.85.wav",
+          "target": null,
+          "extras": {
+            "other_audio": [
+              "assets/audio/Enhancing/declipping/10db/aspade MIDI-Unprocessed_10_R1_2006_01-04_ORIG_MID--AUDIO_10_R1_2006_03_Track03_wav.wav",
+              "assets/audio/Enhancing/declipping/10db/cqtdiff MIDI-Unprocessed_10_R1_2006_01-04_ORIG_MID--AUDIO_10_R1_2006_03_Track03_wav.wav",
+              "assets/audio/Enhancing/declipping/10db/sspew MIDI-Unprocessed_10_R1_2006_01-04_ORIG_MID--AUDIO_10_R1_2006_03_Track03_wav.wav"
+            ]
+          }
+        },
+        {
+          "label": "declipping/1db",
+          "folder": "assets/audio/Enhancing/declipping/1db",
+          "input": "assets/audio/Enhancing/declipping/1db/input_audio_snippet_MIDI-Unprocessed_10_R1_2006_01-04_ORIG_MID--AUDIO_10_R1_2006_03_Track03_wav.wav",
+          "output": "assets/audio/Enhancing/declipping/1db/output_t0.80.wav",
+          "target": null,
+          "extras": {
+            "other_audio": [
+              "assets/audio/Enhancing/declipping/1db/aspade MIDI-Unprocessed_10_R1_2006_01-04_ORIG_MID--AUDIO_10_R1_2006_03_Track03_wav.wav",
+              "assets/audio/Enhancing/declipping/1db/cqtdiff MIDI-Unprocessed_10_R1_2006_01-04_ORIG_MID--AUDIO_10_R1_2006_03_Track03_wav.wav",
+              "assets/audio/Enhancing/declipping/1db/sspew - MIDI-Unprocessed_10_R1_2006_01-04_ORIG_MID--AUDIO_10_R1_2006_03_Track03_wav.wav"
+            ]
+          }
+        },
+        {
+          "label": "keyboard typing",
+          "folder": "assets/audio/Enhancing/keyboard typing",
+          "input": "assets/audio/Enhancing/keyboard typing/input_audio_snippet_exp302_keyboard typing_mixture.wav",
+          "output": "assets/audio/Enhancing/keyboard typing/keyboard_typingoutput_t0.80.wav",
+          "target": "assets/audio/Enhancing/keyboard typing/exp302_keyboard typing_target((SeparateAnythingYouNeed).wav",
+          "extras": {
+            "more_outputs": [
+              "assets/audio/Enhancing/keyboard typing/exp302_keyboard typing_output(SeparateAnythingYouNeed).wav"
+            ],
+            "other_audio": [
+              "assets/audio/Enhancing/keyboard typing/683332_8872754-hq_16k.wav"
+            ]
+          }
+        },
+        {
+          "label": "water drops",
+          "folder": "assets/audio/Enhancing/water drops",
+          "input": "assets/audio/Enhancing/water drops/exp31_water drops_mixture.wav",
+          "output": "assets/audio/Enhancing/water drops/output_t0.80.wav",
+          "target": "assets/audio/Enhancing/water drops/exp31_water drops_target(SeparateAnythingYouCan).wav",
+          "extras": {
+            "more_outputs": [
+              "assets/audio/Enhancing/water drops/exp31_water drops_output(SeparateAnythingYouCan).wav"
+            ],
+            "other_audio": [
+              "assets/audio/Enhancing/water drops/input_audio_snippet_exp31_water drops_mixture.wav"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Limitations",
+      "folder": "assets/audio/Limitations",
+      "rows": [
+        {
+          "label": "Humming2Piano",
+          "folder": "assets/audio/Limitations/Humming2Piano",
+          "input": "assets/audio/Limitations/Humming2Piano/input_audio_snippet_F01_0070_0002_2.wav",
+          "output": "assets/audio/Limitations/Humming2Piano/output_t0.75.wav",
+          "target": null,
+          "extras": {}
+        },
+        {
+          "label": "Sketch2Sound",
+          "folder": "assets/audio/Limitations/Sketch2Sound",
+          "input": "assets/audio/Limitations/Sketch2Sound/input_audio_snippet_car racing.wav",
+          "output": "assets/audio/Limitations/Sketch2Sound/output_t0.80.wav",
+          "target": null,
+          "extras": {
+            "more_outputs": [
+              "assets/audio/Limitations/Sketch2Sound/output_t0.75_lambda_1.wav"
+            ],
+            "other_audio": [
+              "assets/audio/Limitations/Sketch2Sound/sketch2sound_out.wav"
+            ]
+          }
+        },
+        {
+          "label": "StemSeparation/Flute and Guitar",
+          "folder": "assets/audio/Limitations/StemSeparation/Flute and Guitar",
+          "input": "assets/audio/Limitations/StemSeparation/Flute and Guitar/input_audio_snippet_acoustic guitar_mixture.wav",
+          "output": "assets/audio/Limitations/StemSeparation/Flute and Guitar/flute_output_t0.80.wav",
+          "target": "assets/audio/Limitations/StemSeparation/Flute and Guitar/acoustic guitar_target.wav",
+          "extras": {
+            "more_outputs": [
+              "assets/audio/Limitations/StemSeparation/Flute and Guitar/acoustic guitar_output(Separate anythingyou describe).wav",
+              "assets/audio/Limitations/StemSeparation/Flute and Guitar/acoustic_guitar_output_t0.80.wav"
+            ]
+          }
+        },
+        {
+          "label": "StemSeparation/Guitar and Drums",
+          "folder": "assets/audio/Limitations/StemSeparation/Guitar and Drums",
+          "input": "assets/audio/Limitations/StemSeparation/Guitar and Drums/input_audio_snippet_GuitarAndDrums.wav",
+          "output": "assets/audio/Limitations/StemSeparation/Guitar and Drums/drums_output_t0.80.wav",
+          "target": null,
+          "extras": {
+            "more_outputs": [
+              "assets/audio/Limitations/StemSeparation/Guitar and Drums/guitar_output_t0.75.wav"
+            ],
+            "other_audio": [
+              "assets/audio/Limitations/StemSeparation/Guitar and Drums/GuitarAndDrums.wav",
+              "assets/audio/Limitations/StemSeparation/Guitar and Drums/drums.wav",
+              "assets/audio/Limitations/StemSeparation/Guitar and Drums/other.wav"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
