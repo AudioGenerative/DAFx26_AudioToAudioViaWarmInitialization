@@ -85,6 +85,7 @@
       margin: 1.25rem 0 2rem;
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
       gap: 0.75rem 1.25rem;
     }
 
@@ -223,6 +224,19 @@
       left: 0;
     }
 
+    table.demo.equal-cols {
+      table-layout: fixed;
+    }
+
+    table.demo.equal-cols th,
+    table.demo.equal-cols td {
+      width: auto;
+    }
+
+    table.demo.equal-cols thead tr th:first-child {
+      width: auto;
+    }
+
     footer {
       margin-top: 2rem;
       font-size: 0.85rem;
@@ -257,7 +271,7 @@
       <tr>
       <th scope="col">Example</th>
       <th scope="col">Guide Signal</th>
-      <th scope="col">Output </th>
+      <th scope="col">Ours </th>
       <th scope="col">Prior work</th>
       </tr>
       </thead>
@@ -426,9 +440,86 @@
       </tbody>
       </table>
       </div>
+      <h3 class="subsection">Effect of $\tau_\text{init}$</h3>
+      <div class="table-scroll">
+      <table class="demo equal-cols">
+      <colgroup>
+        <col style="width: 16.6667%;">
+        <col style="width: 16.6667%;">
+        <col style="width: 16.6667%;">
+        <col style="width: 16.6667%;">
+        <col style="width: 16.6667%;">
+        <col style="width: 16.6667%;">
+      </colgroup>
+      <thead>
+      <tr>
+      <th scope="col">Guide signal</th>
+      <th scope="col">$\tau_\text{init}$ = 0.55</th>
+      <th scope="col">$\tau_\text{init}$ = 0.70</th>
+      <th scope="col">$\tau_\text{init}$ = 0.80</th>
+      <th scope="col">$\tau_\text{init}$ = 0.85</th>
+      <th scope="col">$\tau_\text{init}$ = 0.90</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td>
+      <div class="audio-cell">
+      <audio controls preload="metadata">
+      <source src="assets/audio/TimbreTransfer/Oboe2Piano/input_audio_snippet_Fantasy%20in%20C.wav" type="audio/wav">
+      </audio>
+      </div>
+      </td>
+      <td>
+      <div class="audio-cell">
+      <audio controls preload="metadata">
+      <source src="assets/audio/TimbreTransfer/Oboe2Piano/output_t0.55.wav" type="audio/wav">
+      </audio>
+      </div>
+      </td>
+      <td>
+      <div class="audio-cell">
+      <audio controls preload="metadata">
+      <source src="assets/audio/TimbreTransfer/Oboe2Piano/output_t0.70.wav" type="audio/wav">
+      </audio>
+      </div>
+      </td>
+      <td>
+      <div class="audio-cell">
+      <audio controls preload="metadata">
+      <source src="assets/audio/TimbreTransfer/Oboe2Piano/output_t0.80.wav" type="audio/wav">
+      </audio>
+      </div>
+      </td>
+      <td>
+      <div class="audio-cell">
+      <audio controls preload="metadata">
+      <source src="assets/audio/TimbreTransfer/Oboe2Piano/output_t0.85.wav" type="audio/wav">
+      </audio>
+      </div>
+      </td>
+      <td>
+      <div class="audio-cell">
+      <audio controls preload="metadata">
+      <source src="assets/audio/TimbreTransfer/Oboe2Piano/output_t0.90.wav" type="audio/wav">
+      </audio>
+      </div>
+      </td>
+      </tr>
+      </tbody>
+      </table>
+      </div>
       <h3 class="subsection">Effect of the noise</h3>
       <div class="table-scroll">
-      <table class="demo">
+      <table class="demo equal-cols">
+      <colgroup>
+        <col style="width: 16.6667%;">
+        <col style="width: 16.6667%;">
+        <col style="width: 16.6667%;">
+        <col style="width: 16.6667%;">
+        <col style="width: 16.6667%;">
+        <col style="width: 16.6667%;">
+      </colgroup>
       <thead>
       <tr>
       <th scope="col">Guide signal</th>
@@ -487,14 +578,21 @@
       </tbody>
       </table>
       </div>
+
       <h2>Midi to Real</h2>
       <div class="table-scroll">
-      <table class="demo">
+      <table class="demo equal-cols">
+      <colgroup>
+        <col style="width: 25%;">
+        <col style="width: 25%;">
+        <col style="width: 25%;">
+        <col style="width: 25%;">
+      </colgroup>
       <thead>
       <tr>
       <th scope="col">Example</th>
       <th scope="col">MIDI input</th>
-      <th scope="col">Output (Ours)</th>
+      <th scope="col">Ours</th>
       <th scope="col">Prior work</th>
       </tr>
       </thead>
@@ -673,12 +771,19 @@
       </div>
       <h2>Audio Enhancement</h2>
       <div class="table-scroll">
-      <table class="demo">
+      <table class="demo equal-cols">
+      <colgroup>
+        <col style="width: 20%;">
+        <col style="width: 20%;">
+        <col style="width: 20%;">
+        <col style="width: 20%;">
+        <col style="width: 20%;">
+      </colgroup>
       <thead>
       <tr>
       <th scope="col">Example</th>
-      <th scope="col" style="width: 150px;">Input </th>
-      <th scope="col">Output (Ours)</th>
+      <th scope="col">Input </th>
+      <th scope="col">Ours</th>
       <th scope="col">Prior work</th>
       <th scope="col">Ground truth</th>
       </tr>
@@ -976,12 +1081,19 @@
       </div>
       <h2>Limitations</h2>
       <div class="table-scroll">
-      <table class="demo">
+      <table class="demo equal-cols">
+      <colgroup>
+        <col style="width: 20%;">
+        <col style="width: 20%;">
+        <col style="width: 20%;">
+        <col style="width: 20%;">
+        <col style="width: 20%;">
+      </colgroup>
       <thead>
       <tr>
       <th scope="col">Example</th>
       <th scope="col">Input </th>
-      <th scope="col">Output (Ours)</th>
+      <th scope="col">Ours</th>
       <th scope="col">Prior work</th>
       <th scope="col">Ground truth</th>
       </tr>
@@ -1042,7 +1154,7 @@
       <td><span style="color: var(--muted);">—</span></td>
       </tr>
       <tr>
-      <td class="query">StemSeparation/Flute and Guitar</td>
+      <td class="query">Stem Separation<br>Flute and Guitar</td>
       <td>
       <div style="margin-top:0.35rem;">
       <div class="audio-cell">
@@ -1081,7 +1193,7 @@
       <td><span style="color: var(--muted);">—</span></td>
       </tr>
       <tr>
-      <td class="query">StemSeparation/Guitar and Drums</td>
+      <td class="query">Stem Separation<br>Guitar and Drums</td>
       <td>
       <div style="margin-top:0.35rem;">
       <div class="audio-cell">
